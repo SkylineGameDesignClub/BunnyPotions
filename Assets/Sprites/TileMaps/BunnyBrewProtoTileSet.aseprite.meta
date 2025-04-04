@@ -167,7 +167,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 24ab74a437aa9bd48b2a50579f2221e7
+    spriteID: dda3bb5d8d2d00b48a1b421b259be44a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -188,7 +188,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_2
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -198,7 +198,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 090bc1c1d44c7074ea640af397872ff0
+    spriteID: 75b95f06487440441b7bbe10acd86404
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -209,7 +209,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_3
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -219,7 +219,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: de2d4b40814c8bf439ba027a62a5677b
+    spriteID: 873c3a31bf443bb4996b8ef33bc2849a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_4
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -240,7 +240,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 557ae22da6192544a98ea9a705edd5e7
+    spriteID: 0934697b0a155cf469ef818bc3b448d2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -251,7 +251,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_5
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -261,7 +261,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: de34859d04f39bd479152c7b0a7efad3
+    spriteID: 8c988f2d32d3f004e8a533746e83f574
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -272,7 +272,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_6
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -282,23 +282,18 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: f582eb997f0d13541b55b7d671eeca08
+    spriteID: 673def7b916cd864ebf58d53b03f42a9
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 8}
-      - {x: -8, y: 8}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_7
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -308,23 +303,18 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 89cfe6baacda4ff408b8b0473430f97a
+    spriteID: 57736a20d09feea4886743aee8bec9f8
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_8
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -334,23 +324,18 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: a1c22ba366d355f4e9ae6dc76ad429bb
+    spriteID: b2b80cfbcebdba04ca0d497f8648ac56
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 8}
-      - {x: -8, y: 8}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_9
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -360,7 +345,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 76ca63ad043d66c4bbd838fa0fde1101
+    spriteID: ff87c139b5282aa46977938788e29f57
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -371,7 +356,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_10
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -381,7 +366,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 77ae024d79a29a749a72ec7690618138
+    spriteID: b718644f34fea754094acdcdb2701718
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -392,7 +377,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_11
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -402,7 +387,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 4256f17d41f836e4ea8ec7e187923d3a
+    spriteID: b201fdae1309bcb41b7e32f8ae5080cb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -413,7 +398,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_12
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -423,7 +408,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: cc255ff5be390b841ba6cc75157f6b36
+    spriteID: 3c92d6fcc60f3754e9b0f1333c88ed21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -434,7 +419,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_13
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -444,7 +429,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 9fd601a56b47bc94383f730a20dbf7c4
+    spriteID: c3974df0352ff8d4d985e12e62c1501c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -455,7 +440,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_14
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -465,7 +450,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: feef5680a40c1a941867b2c63071bb17
+    spriteID: 2a25b0ce8f14a804d82ffbdcdf693eb9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -476,7 +461,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_15
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -486,7 +471,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: f4701dbd0926fd84faadc16bfd23bd47
+    spriteID: b0d2d2afbbdc0ab4e982b615a98b0f59
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -497,7 +482,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_16
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -507,7 +492,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 5c4a99f6e17d6d346b8cc2443d92fab1
+    spriteID: 1315847cda414e54489d290be3547bd6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -518,7 +503,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_17
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -528,7 +513,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 4a57eb5bc9949694d919e323d27c86f6
+    spriteID: 09ddb08a7a1573a4ebef4cdd1388a07d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -539,7 +524,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_18
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -549,23 +534,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: bf401927f0f41be4993328218ad48a2c
+    spriteID: b973e79036b54f24080c5042cb4c80df
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_19
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -575,23 +555,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: df81b63d389eb4c498d0af10c9297c21
+    spriteID: 0e4a0e6f85002ec48823057d0c4b09c0
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_20
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -601,23 +576,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 30c90aff35e0a6149ae957d3cc7ee3c7
+    spriteID: c895fb64b0850b0449ad5aff21b9a3a8
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_21
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -627,23 +597,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 620e913fbd522ba4795c7089af08c9f4
+    spriteID: abbf3783a11e7b94a9cc09f0d18b2cd1
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_22
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -653,23 +618,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 3c6b2b0d796d5dc49a7bdec790a5f156
+    spriteID: 8cf67c4bbd316ea47a2fba678a8b9c5e
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_23
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -679,23 +639,18 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: e3436621a729d5346b001e7b5a2da352
+    spriteID: 5fe31f709f617364285efcc4235c2908
     spriteBone: []
     spriteOutline: []
     vertices: []
-    spritePhysicsOutline:
-    - outline:
-      - {x: 8, y: 4}
-      - {x: -8, y: 4}
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
+    spritePhysicsOutline: []
     indices: 
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   - name: BunnyBrewProtoTileSet_24
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -705,28 +660,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 4b05a5a1029d6ee498837ee8b2f1c38d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: BunnyBrewProtoTileSet_25
-    originalName: 
-    pivot: {x: 0, y: 0}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 16
-      y: 0
-      width: 16
-      height: 16
-    spriteID: 0cfbc2f2817c0d94ab3d19f4d2b37842
+    spriteID: 6715f23b72b2cca48b6db85dad88bae1
     spriteBone: []
     spriteOutline: []
     vertices: []
