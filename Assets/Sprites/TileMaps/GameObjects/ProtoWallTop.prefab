@@ -45,6 +45,10 @@ PrefabInstance:
       value: ProtoWallSprite
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -58,11 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.38268343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.y
@@ -74,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

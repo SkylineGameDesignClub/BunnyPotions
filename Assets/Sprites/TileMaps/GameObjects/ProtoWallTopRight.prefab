@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -88,6 +88,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6876673774166664985, guid: 5e98d8b11ac215342aeaf2be010c93f0, type: 3}
+    - target: {fileID: 6843600106049542732, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6843600106049542732, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6843600106049542732, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
