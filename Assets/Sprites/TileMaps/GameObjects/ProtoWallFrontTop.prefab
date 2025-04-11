@@ -45,6 +45,10 @@ PrefabInstance:
       value: ProtoWallSprite
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -54,15 +58,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.38268343
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalRotation.y
@@ -74,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5659899233016935996, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -92,6 +96,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6843600106049542732, guid: 26ec691bd400d8042b31db5e0b83f9f7, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 69a87aa0a59d1b24b87c1b0c9733b2db, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
