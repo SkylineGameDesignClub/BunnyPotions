@@ -16,7 +16,7 @@ public class DialougeManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Dialouge("poopoo peepee", null, "boogie");
+
     }
 
     private void Update()

@@ -5,6 +5,8 @@ public class PlayerCarry : MonoBehaviour
 {
     public SpriteRenderer itemRenderer;
     public Item carriedItem;
+    private ItemRenderer nearItem = null;
+
 
     public float pickupRange = 2f;
 
@@ -26,10 +28,13 @@ public class PlayerCarry : MonoBehaviour
     {
         PickupItem();
     }
-
-    void PickupItem()
+    private void Update()
     {
-        // Find nearest item within range
+        IdentifyItems();
+    }
+
+    void IdentifyItems()
+    {
         var closestItem = null as ItemRenderer;
         var closestDistance = 999999999999999f;
         foreach (var item in Physics.OverlapSphere(transform.position, pickupRange))
@@ -45,11 +50,24 @@ public class PlayerCarry : MonoBehaviour
 
         if (closestItem != null)
         {
-            PickupItem(closestItem.item);
-            Destroy(closestItem.gameObject);
-        } else
+            closestItem.SetSpriteOutline(8.0f);
+            nearItem = closestItem;
+        }
+    }
+    void PickupItem()
+    {
+        // Find nearest item within range
+        if (carriedItem)
         {
             DropItem();
+            return;
+        }
+
+        if (nearItem != null)
+        {
+            nearItem.SetSpriteOutline(8.0f);
+            PickupItem(nearItem.item);
+            Destroy(nearItem.gameObject);
         }
     }
 
@@ -65,5 +83,14 @@ public class PlayerCarry : MonoBehaviour
     {
         itemRenderer.sprite = item.sprite;
         carriedItem = item;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (!carriedItem)
+        {
+            //Draws PickUpRange of Items on Player 
+            Gizmos.DrawWireSphere(transform.position, pickupRange);
+        }
     }
 }

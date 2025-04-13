@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4959793648551105796, guid: 0c611c93aa451aa459fd8b3d41954d9d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4426346074929593417, guid: 5e98d8b11ac215342aeaf2be010c93f0, type: 3}
     - target: {fileID: 8769568838355787659, guid: 0c611c93aa451aa459fd8b3d41954d9d, type: 3}
       propertyPath: m_Name
       value: ProtoTableBarLeft
