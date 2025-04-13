@@ -51,8 +51,8 @@ public class PlayerCarry : MonoBehaviour
         if (closestItem != null)
         {
             closestItem.SetSpriteOutline(8.0f);
-            nearItem = closestItem;
         }
+        nearItem = closestItem;
     }
     void PickupItem()
     {
@@ -74,7 +74,7 @@ public class PlayerCarry : MonoBehaviour
     void DropItem()
     {
         if (!carriedItem) return; 
-        Instantiate(carriedItem.prefab, transform.position, Quaternion.identity);
+        Instantiate(carriedItem.prefab, new Vector3(transform.position.x, transform.position.y,0), Quaternion.identity);
         itemRenderer.sprite = null;
         carriedItem = null;
     }
