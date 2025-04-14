@@ -6,6 +6,7 @@ public class ItemRenderer : MonoBehaviour
     public Item item;
         
     private SpriteRenderer itemRenderer;
+    private SpriteRenderer outlineRenderer;
     private MaterialPropertyBlock block;
 
     private float spriteOutline = 0;
@@ -14,8 +15,10 @@ public class ItemRenderer : MonoBehaviour
     {
         block = new MaterialPropertyBlock();
         itemRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        outlineRenderer = transform.GetChild(1).GetComponent<SpriteRenderer>();
         itemRenderer.sprite = item.sprite;
-        itemRenderer.GetPropertyBlock(block);
+        outlineRenderer.sprite = item.sprite;
+        outlineRenderer.GetPropertyBlock(block);
         SetRenderOutLine(0.0f);
     }
 
@@ -40,6 +43,6 @@ public class ItemRenderer : MonoBehaviour
     private void SetRenderOutLine(float outlineThickness)
     {
         block.SetFloat("_Outline", outlineThickness);
-        itemRenderer.SetPropertyBlock(block);
+        outlineRenderer.SetPropertyBlock(block);
     }
 }
